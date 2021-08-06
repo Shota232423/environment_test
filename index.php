@@ -10,6 +10,5 @@
     <h1>こんにちは</h1>
     <?php echo $_ENV['HOGE']; ?>
     <a href="second/index.html">テストリンク</a>
-    <a href="<?php echo __dir__."/second/index.html"; ?>">テストリンク</a>
 </body>
 </html>
