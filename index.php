@@ -1,12 +1,3 @@
-<?php
-require 'vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-
-echo "テスト";
-echo $_ENV['HOGE'];
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,5 +8,6 @@ echo $_ENV['HOGE'];
 </head>
 <body>
     <h1>こんにちは</h1>
+    <?php echo $_ENV['HOGE']; ?>
 </body>
 </html>
