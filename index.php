@@ -9,6 +9,6 @@
 <body>
     <h1>こんにちは</h1>
     <?php echo $_ENV['HOGE']; ?>
-    <a href="second/index.html"></a>
+    <a href="second/index.html">テストリンク</a>
 </body>
 </html>
